@@ -1,0 +1,137 @@
+.bg-green {
+  background-color: #37AB35;
+}
+
+.grey {
+  color: #867878;
+}
+
+.text, .cardbtn, .nav, .header, .about_us, .inter, .our_services, .noto_Serif {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.purple {
+  color: #5B35AB;
+}
+
+.green {
+  color: #37AB35;
+}
+
+.noto_Serif {
+  font-family: "Noto Serif";
+}
+
+.inter, .our_services {
+  font-family: "Inter";
+}
+
+.btn-1 {
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: purple;
+  background-color: #37AB35;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-2 {
+  background-color: white;
+  border-color: #37AB35;
+  border-radius: 30px;
+  border-width: 2px;
+}
+
+#navmenu {
+  color: black;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 50px;
+}
+
+.about_us {
+  font-family: "Noto Serif";
+  color: #37AB35;
+}
+
+.header {
+  font-family: "Noto Serif";
+  color: #000000;
+}
+
+.nav {
+  font-family: "Inter";
+}
+
+.mycard {
+  border: 3px solid #5B35AB;
+  text-align: start;
+  border-radius: 0px;
+}
+
+.cardbtn {
+  background-color: #37AB35;
+  color: white;
+  font-weight: 600;
+}
+
+.our_services {
+  color: #5B35AB;
+}
+
+#section4 {
+  background-color: rgba(91, 53, 171, 0.06);
+}
+
+.img4 {
+  border-radius: 30px;
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+#section7 {
+  background-color: #37AB35;
+}
+
+.btn-subscribe {
+  background-color: #37AB35;
+  border-radius: 40px;
+}
+
+#email {
+  border-radius: 20px;
+}
+
+.login {
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.terms {
+  line-height: 19px;
+}
+
+.btn-blank {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.border-green {
+  border-color: #37AB35;
+}
+
+.round {
+  border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#mentor_form, #mentee_form {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

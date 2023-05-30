@@ -1,0 +1,38 @@
+$green: #37AB35;
+$purple: #5B35AB;
+$grey:#867878;
+.bg-green{background-color: $green;}
+.grey{color: $grey;}
+.text{font-style: normal;    font-weight: 700;}
+.purple{color: $purple}
+.green{color:$green}
+.noto_Serif{@extend .text; font-family: 'Noto Serif';}
+.inter{@extend .text; font-family: 'Inter';}
+.btn-1{border-radius: 20px; border-width: 2px;border-color:purple; background-color: $green; font-weight: 600; color: white;}
+.btn-2{ background-color: #FFFF;border-color: $green; border-radius: 30px; border-width: 2px;}
+#navmenu{color: black;}
+body::before{
+    display:block;
+    content: '';
+    height: 50px;
+}
+
+.about_us{font-family: 'Noto Serif'; color: $green; @extend .text;}
+.header{font-family: 'Noto Serif'; @extend .text; color: #000000;}
+.nav{@extend .text; font-family: 'Inter';}
+.mycard{border: 3px solid $purple; text-align: start; border-radius: 0px;}
+.cardbtn{background-color: $green;  @extend .text; color: white; font-weight: 600;}
+.our_services{@extend .inter; color:$purple;}
+#section4{ background-color: rgba($purple, 0.06);}
+.img4{border-radius: 30px;}
+.poppins{font-family: 'Poppins';}
+#section7{background-color: $green;}
+.btn-subscribe{background-color: $green; border-radius: 40px;}
+#email{border-radius: 20px;}
+.login{box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);}
+.terms{line-height: 19px;}
+.btn-blank{background-color: rgba(0,0,0,0);}
+.border-green{border-color: $green;}
+.round{border-radius: 20px;}
+html { scroll-behavior: smooth;}
+#mentor_form,#mentee_form{display: none;}
